@@ -11,7 +11,7 @@ import User from "./components/User/User";
 import Github from "./components/Github/Github";
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/react-router-project/",
     element: <Layout />,
     children: [
       {
@@ -19,11 +19,11 @@ const router = createBrowserRouter([
         element: <Home />,
       },
       {
-        path: "/about",
+        path: "/react-router-project/about",
         element: <About />,
       },
       {
-        path: "/contact",
+        path: "/react-router-project/contact",
         element: <Contact />,
       },
       {
@@ -31,9 +31,9 @@ const router = createBrowserRouter([
         element: <User />,
       },
       {
-        path:"/github",
-        element:<Github/>
-      }
+        path: "/react-router-project/github",
+        element: <Github />,
+      },
     ],
   },
 ]);
